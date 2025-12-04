@@ -3462,53 +3462,55 @@ input[type="button"]:disabled,
 
 /* Language Selector Dropdown */
 .language-selector {
-	position: relative;
-	display: inline-block;
-	margin-top: 1em;
+    position: relative;
+    display: inline-block;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
 }
 
-.language-selector>a {
-	color: #ffffff;
-	font-size: 1.5em;
-	cursor: pointer;
+.language-selector > a {
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
-.language-selector>a:hover {
-	color: #a0a0a0;
+.language-selector > a:hover {
+    color: #a0a0a0;
 }
 
 .language-dropdown {
-	display: none;
-	position: absolute;
-	bottom: 100%;
-	left: 50%;
-	transform: translateX(-50%);
-	background: #1e3a5f;
-	border-radius: 5px;
-	list-style: none;
-	padding: 0.5em 0;
-	margin: 0 0 0.5em 0;
-	min-width: 120px;
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #d9e4ee;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0.3em 0;
+    margin: 0;
+    min-width: 80px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .language-dropdown li {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .language-dropdown li a {
-	display: block;
-	padding: 0.5em 1em;
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 0.9em;
+    display: block;
+    padding: 0.3em 0.8em;
+    color: #1e3a5f;
+    text-decoration: none;
+    font-size: 0.85em;
 }
 
 .language-dropdown li a:hover {
-	background: #2a4a6f;
+    background: #c0d0e0;
 }
 
 .language-selector:hover .language-dropdown {
-	display: block;
+    display: block;
 }
